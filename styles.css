@@ -1,0 +1,196 @@
+body {
+   margin: 0;
+   background: linear-gradient(lightgray, lightslategray);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   font-size: 22px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#top {
+    text-align: center;
+}
+
+#homeheader, #scheduleheader, h1 {
+
+    text-align: center;
+    
+    border: 5px solid black;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    width: 50%;
+
+    font-style: oblique;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    box-shadow: 5px 5px 10px lightslategray, -5px -5px 5px slategray;
+}
+
+#mainsection, #actionplan {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border: 5px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px whitesmoke;
+}
+
+#actionplan {
+    margin-top: 50px;
+    width: 75%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;  
+}
+
+.nav {
+    float: left;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-right: 1px solid black;
+}
+
+.nav:hover:not(.active) {
+    background-color: #555;
+}
+
+.nav:last-child {
+    border-right: none;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+}
+
+.active {
+    background-color: whitesmoke;
+}
+
+#name-email {
+    border: 5px solid black;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 50%;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px whitesmoke;
+}
+
+#attendance {
+    border: 5px solid black;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 50%;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px whitesmoke;
+}
+
+#attendance {
+    text-align: center;
+    padding: 20px;
+}
+
+#name, #email, #dropdown {
+    margin: 25px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#options {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+#meetingdays {
+    border: 5px solid black;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    width: 50%;
+    background-color: whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 5px 5px 10px whitesmoke;
+}
+
+.submit {
+    display: block;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+    width: auto;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gray;
+}
+
+#surveyhead, #contact-text {
+    text-align: center;
+    font-style: oblique;
+    
+}
+
+#contact-firstlast, #subject-field {
+    border: 5px solid black;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    width: 50%;
+    background-color: whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px 10px whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#slogan {
+    text-align: center;
+    font-style: oblique;
+}
+
+#subject, #contact-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+

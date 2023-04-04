@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Drive Survey</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <div id="surveyheader">
+
+    <header>
+        <div class="topnav">
+        
+            <ul>
+                <li class="nav">
+                    <a class="nav" href="index.html">Home</a>
+                </li>
+
+
+                <li class="nav">
+                    <a class="nav" class="active"href="survey-form.html">Survey</a>
+                </li>
+
+                <li class="nav">
+                    <a class="nav" href="schedule.html">Schedule</a>
+                </li>
+
+                <li class="nav">
+                    <a class="nav" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <h1>Survey</h1>
+        <p id="surveyhead">Considering filling out this survey to help our efforts to feed our community</p>
+        
+        
+    </header>
+    
+    </div>
+
+    <main>
+        
+        <form id="survey">
+        <div id="name-email">
+            <label id="name-label" for="name"><p>Enter your name: </p></label><input id="name" type="text" required>
+
+            <br>
+
+            <label id="email-label" for="email"><p>Enter your email: </p></label><input type="email" id="email" required>
+        </div>
+
+        <div id="attendance">
+            <label for="attendance"><p>Will you attend weekly meetings and encourage others to attend as well?</p></label>
+
+            <select name="meetingattendance" id="dropdown" required>
+                <option value="">--Please Choose--</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+        </div>
+        
+            <br>
+        <div id="meetingdays">
+            <label for="days"><p>Which of the following days would work best for weekly meetings? <u>Select all that apply</u></p></label>
+
+            <br>
+
+            <div>
+            <label for="options" aria-required="true"><input type="checkbox" id="options" value="monday"> Monday</label>
+            </div>
+
+            <br>
+
+            <div>
+            <label for="options" aria-required="true"><input type="checkbox" id="options" value="tuesday"> Tuesday</label>
+            </div>
+
+            <br>
+
+            <div>           
+            <label for="options" aria-required="true"><input type="checkbox" id="options" value="wednesday"> Wednesday</label>
+            </div>
+
+            <br>
+
+            <div>
+            <label for="options" aria-required="true"><input type="checkbox" id="options" value="thursday"> Thursday</label>
+            </div>
+
+            <br>
+
+            <div>
+            <label for="options" aria-required="true"><input type="checkbox" id="options" value="friday"> Friday</label>
+            </div>
+
+            <br>
+
+            <div>
+            <label for="options" aria-required="true"><input type="checkbox" id="options" value="saturday"> Saturday</label>
+            </div>
+        </div>
+        <br>
+        <div>
+        <input class="submit" type="submit" name="submit">
+        </div>
+        </form>
+
+    </main>
+    
+    <footer>
+        
+        
+    </footer>
+    
+</body>
+</html>
